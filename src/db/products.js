@@ -11,8 +11,7 @@ import {
   pineapple,
   potato,
   pomegranate,
-  tomato,
-} from "../../public/assets/images/index";
+} from "../assets/images/index";
 
 export const products = [
   {
@@ -135,16 +134,6 @@ export const products = [
     vendor: "Mallikarjun farms",
     category: "Vegetables",
     image: greenChilli,
-    quantity: 1,
-  },
-  {
-    name: "Tomato",
-    id: 13,
-    price: 25,
-    available: 1,
-    vendor: "Organic farms",
-    category: "Vegetables",
-    image: tomato,
     quantity: 1,
   },
 ];
