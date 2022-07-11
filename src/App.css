@@ -1,1 +1,5 @@
 @import "https://dreamui-demo.netlify.app/dreamui-v1.css";
+
+.badge.square-badge {
+  border-radius: 2px;
+}
