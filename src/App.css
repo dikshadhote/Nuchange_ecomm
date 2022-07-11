@@ -1,5 +1,29 @@
 @import "https://dreamui-demo.netlify.app/dreamui-v1.css";
 
+:root {
+  --gray-light: #e0d1d1;
+  --active-link: #b4a6a6;
+  --transparent-black: #29211c;
+}
+
 .badge.square-badge {
   border-radius: 2px;
+}
+
+.gray-border-chip-container {
+  border-top: 0.5px solid var(--gray-light);
+  border-bottom: 0.5px solid var(--gray-light);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.tag {
+  background-color: var(--gray-light);
+  border-radius: 5px;
+}
+
+.tag.link-active {
+  background-color: var(--active-link);
 }
